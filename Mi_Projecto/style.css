@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#header{
+    height: fit-content;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8rem;
+    padding-bottom: 2rem;
+   }
+   .left-content{
+    display: flex;
+    gap: 4rem;
+   }
+
+.nav{
+    display: flex;
+    gap: 1rem;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.nav-item img{
+    width: 35px;
+    border: 1px #fff;
+    padding: 0.25rem;
+    border-radius: 100px;
+}
+.list{
+    display: flex;
+    gap: 1rem;
+}
+.item{
+    color: white;
+}
+.btn{
+    background-color: #cc6709fb;
+    padding: 0.5rem;
+    border-radius: 16px;
+}
+/* 
+
+100px: TAMAÑOS RELATIVOS
+20%: TAMAÑOS ABSOLUTOS
+5rem: TAMAÑOS 
+
+padding o marging: 2rem 5rem;= ARRIBA ABAJO - IZQUIERDA DERECHA
+padding o marging: 2rem 5rem 20px; ARRIBA IZQ.DER ABAJO
+padding o marging: 2 rem 5 rem 2px 5px;= ARRIBA DERECHA ABAJO IZQUIERDA
+
+Lo más usado actualmente
+padding-inline: 20px; Modifica al mismo tiempo IZQUIERDA Y DERECHA
+padding-inline: 5% 4rem; IZQUIERDA DERECHA 
+padding-block: 20px; Modifica al mismo tiempo ARRIBA Y ABAJO
+padding-block: 20px 4rem; ARRIBA Y ABAJO
+-----------o-------------o---------------
+flex-direction: GIRA EL ELEMENTO
+
+
+
+
+
+
+*/

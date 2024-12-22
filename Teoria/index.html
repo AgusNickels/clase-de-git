@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>     <!--De aca en adelante vas a ver codigo HTML 5-->
+<html lang="en">    <!--html= Aca arranca el codigo HTML 5--> <!--"Lang" Es un atributo-->
+<head>              <!--Contenido no visual pero que ayuda a la información de la web-->
+    <meta charset="UTF-8"><!--Define que estamos en el codigo "UTF-8" que significa que esta en español-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Permite que oueda escalarse, que se pueda ver tanto en PC como en Celulares-->
+    <title>Clase 1</title><!--Definir el nombre de la pestaña-->
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body><!--Es el cuerpo de nuestro HTML-->
+        <h1>Titulo 1</h1>
+        <h2>Titulo 2</h2>
+        <h3>Titulo 3</h3>
+        <h4>Titulo 4</h4>
+        <h5>Titulo 5</h5>
+        <h6>Titulo 6</h6>   
+    <!--Así se hace un comentario en HTML-->
+
+
+    <!--Estas son las etiquetas de texto--> 
+    <p>Hola Mundo</p>
+    <a href="https://tuenti.com.ar" target="_blank">Texto cliqueable</a>
+    <span>Texto Importante</span> <!-- Texto Importante SEO-->
+
+    <!-- Buena Practica -->
+    <strong>Texto en negrita</strong> 
+    <i>Texto Italica</i> 
+    <!-- Mala Practica-->
+    <b>Texto en negrita 2</b> 
+    <em>Texto en Italica 2</em>
+
+    <!--CONTENEDORES-->
+    <div>
+        <p>Hola Mundo</p>
+    </div>
+    <section></section>
+    <header></header>
+    <article></article>
+    <main></main>
+    <aside></aside>
+    <footer></footer>
+    <nav></nav>
+    <!--IAMGENES-->
+    <!--"SCR"=  "ALT"= . Ambos son atributos--> 
+    <img src= "Imagenes_Index/MarioBros.avif" alt="Un lindo Mario Bros">
+
+<!--ENTRADAS DEL USUARIO= Donde el usuario puede cargar un tipo de información -->
+<form method="GET" action="formulario.html" target="_blank">
+    <label for="Nombrecompleto">Nombre Completo</label>
+    <input id="Nombrecompleto" type="text" placeholder="Nombre Completo" autofocus required>
+    <label id="correo">Correo Eletrónico</label>
+    <input id="correo" type="email" placeholder="Correo Electronico" required>
+    <label id="pass">Contraseña</label>
+    <input id="pass" type="password" placeholder="Contraseña" required>
+    <select required>
+        <option disabled selected>Selecciona una opción</option>
+        <option value="1"> opcion 1</option>
+        <option value="2"> opcion 2</option>
+        <option value="3"> opcion 3</option>
+        <option value="4"> opcion 4</option>
+        <option value="5"> opcion 5</option>
+    </select>
+    <input type="submit" value="Continuar">
+</form>
+
+
+</body><!--Finaliza el cuerpo de nuestro HTML-->
+</html><!--Aqui finaliza el codigo HTML-->
